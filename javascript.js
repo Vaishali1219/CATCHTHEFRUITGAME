@@ -1,5 +1,7 @@
 //jquery.js
-var playing = false;
+$(document).ready(function(e) {   
+
+      var playing = false;
 var score;
 var trialsLeft;
 var step;
@@ -133,3 +135,5 @@ $(function () {
         clearInterval(action);
     }
 });
+
+    });

@@ -1,5 +1,5 @@
 //jquery.js
-jQuery(document).ready(function(e) {   
+jQuery(document).ready(function(jQuery) {   
 
       var playing = false;
 var score;
@@ -136,4 +136,4 @@ jQuery(function () {
     }
 });
 
-    });
+    })($);
